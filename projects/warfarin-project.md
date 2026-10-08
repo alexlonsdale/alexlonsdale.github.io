@@ -3,7 +3,7 @@ Title: 3rd Year Individual Project
 Description: Automatic Warfarin Dose Management Using Model Based Control Systems
 ---
 
-![Photo of the finished project](/images/warfarin-project/hero.jpg)
+![Photo of the project](/images/warfarin-project/hero.png)
 
 ## What was the project brief?
 
@@ -31,5 +31,5 @@ I gained experience in:
 - Numerical analysis in MATLAB on a provided dataset, skills that I've managed to further develop with other personal projects.
 - Simulation using SIMULINK and Python. Implementing and testing control systems. 
 
-## Group Photo - After successful project practical assessment!
-![Group Photo](/images/robot-project/group-photo.jpg)
+## Controller Output after correcting for Limit Cycle Oscillations
+![Group Photo](/images/warfarin-project/second.png)
