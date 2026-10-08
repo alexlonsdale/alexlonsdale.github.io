@@ -3,7 +3,7 @@ Title: 2nd Year Robot Project (group)
 Description: For the ENGR204 module, our group was tasked with building an autonomous robot which could follow a line and then fire two projectiles at two different targets.
 ---
 
-![Photo of the finished project](/images/project-name/hero.jpg)
+![Photo of the finished project](/images/robot-project/hero.jpg)
 
 ## What was the project brief?
 
@@ -17,7 +17,7 @@ The most complex element of our robot was the so-called "firing mechanism" - a p
 
 To follow the line and to control the behaviour of the robot, we developed a basic control system which would "zig-zag" the robot back and forth to keep it as aligned with the black line as possible while moving forward at a fixed speed. 
 
-![Diagram of the control loop](/images/project-name/diagram.png)
+![Circuit Diagram](/images/robot-project/circuit-diagram.png)
 
 ## Outcomes - How successful was the project?
 
@@ -27,6 +27,7 @@ We felt that our robot could have benefitted from a better control system, as th
 
 ## Video
 
-<video controls width="100%" src="/videos/project-name/demo.mp4"></video>
+<video controls width="100%" src="/images/robot-project/demo.mp4"></video>
 
-
+## Group Photo!
+![Group Photo](/images/robot-project/group-photo.jpg)
