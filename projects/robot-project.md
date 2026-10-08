@@ -23,7 +23,9 @@ To follow the line and to control the behaviour of the robot, we developed a bas
 
 Our robot successfully completed the line-following task without any errors or manual corrections needed during the assessed run. It also completed the tasks well under the time limit outlined in the initial specification. Furthermore, the two projectiles were successfully launched into the defined target areas. Based on this, we felt that our design was highly successful as it completed the tasks outlined in the project brief.
 
-We felt that our robot could have benefitted from a better control system, as the one we implemented did not take full advantage of the motor hardware that we had implemented. In theory, our design could have used differential speed control to steer much more effectively, instead of in the zig-zag motion that we chose. In addition, our light sensors were not as well-built as they could have been as this was the first task we undertook - we gained a lot of experience throughout the project and would have made small tweaks to the design in retrospect.
+We felt that our robot could have benefitted from a better control system, as the one we implemented did not take full advantage of the motor hardware that we had implemented. In theory, our design could have used differential speed control to steer much more effectively, instead of in the zig-zag motion that we chose. 
+
+With more time to work on the project, we could have invested more into the physical design and organisation of the components. However, we were very time-constrained due to our group's lack of experience with electronics requiring use to spend much of our lab time researching and working on the wiring and sensor hardware. 
 
 ## Learning Opportunities
 
