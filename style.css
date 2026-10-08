@@ -1,0 +1,106 @@
+:root {
+  --bg: #fafaf8;
+  --text: #1c1c1c;
+  --muted: #666;
+  --accent: #1a5fb4;
+  --line: #ddd;
+  --placeholder: #e8e8e4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161618;
+    --text: #ececec;
+    --muted: #9a9a9a;
+    --accent: #7ab0f5;
+    --line: #333;
+    --placeholder: #26262a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  max-width: 60rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Intro */
+.intro {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.intro h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
+
+.intro p {
+  margin: 0 0 1rem;
+  max-width: 36rem;
+  color: var(--muted);
+}
+
+.intro nav a {
+  margin-right: 1.25rem;
+}
+
+/* Project grid */
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+
+.project h3 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.project p {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  background: var(--placeholder);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
