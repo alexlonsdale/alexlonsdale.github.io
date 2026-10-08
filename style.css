@@ -76,6 +76,13 @@ h2 {
   gap: 1.5rem;
 }
 
+/* Project cards (whole card is a link) */
+.project {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .project h3 {
   margin: 0.75rem 0 0.25rem;
   font-size: 1.1rem;
@@ -86,11 +93,36 @@ h2 {
   color: var(--muted);
 }
 
+.project .more {
+  color: var(--accent);
+}
+
+.project:hover h3,
+.project:hover .more {
+  text-decoration: underline;
+}
+
+.project:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+/* Card image and placeholder share the same shape */
+.photo,
+.project img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.project img {
+  object-fit: cover;
+}
+
 .photo {
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 4 / 3;
   background: var(--placeholder);
   color: var(--muted);
   font-size: 0.9rem;
@@ -138,24 +170,4 @@ footer {
   width: 100%;
   aspect-ratio: 16 / 9;
   border: 0;
-}
-
-.project {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
-
-.project .more {
-  color: var(--accent);
-}
-
-.project:hover h3,
-.project:hover .more {
-  text-decoration: underline;
-}
-
-.project:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 4px;
 }
