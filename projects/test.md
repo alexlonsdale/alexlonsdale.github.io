@@ -6,7 +6,7 @@ description: One sentence on what it is and what it does.
 
 ![Photo of the finished project](/images/project-name/hero.jpg)
 
-## What it is
+## What it is!
 
 A short paragraph: what you built and what it does.
 
