@@ -104,3 +104,38 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* Article pages */
+.article {
+  max-width: 42rem;
+}
+
+.article h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.article .summary {
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+}
+
+.article h2 {
+  margin: 2rem 0 0.5rem;
+}
+
+.article img,
+.article video,
+.article iframe {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.article iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
