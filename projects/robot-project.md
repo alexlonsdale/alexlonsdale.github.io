@@ -25,9 +25,13 @@ Our robot successfully completed the line-following task without any errors or m
 
 We felt that our robot could have benefitted from a better control system, as the one we implemented did not take full advantage of the motor hardware that we had implemented. In theory, our design could have used differential speed control to steer much more effectively, instead of in the zig-zag motion that we chose. In addition, our light sensors were not as well-built as they could have been as this was the first task we undertook - we gained a lot of experience throughout the project and would have made small tweaks to the design in retrospect.
 
-## Video
+## Learning Opportunities
 
-<video controls width="100%" src="/images/robot-project/demo.mp4"></video>
+I improved many key engineering skills during this project:
+- Teamwork and collaboration with my group
+- Electronic design and assembly
+- Programming (specifically with embedded systems/microcontrollers) and control systems
+- CAD + 3D printing
 
-## Group Photo!
+## Group Photo - After successful project practical assessment!
 ![Group Photo](/images/robot-project/group-photo.jpg)
