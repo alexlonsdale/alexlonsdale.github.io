@@ -1,35 +1,33 @@
 ---
-Title: 3rd Year Individual Project
-Description: Automatic Warfarin Dose Management Using Model Based Control Systems
+Title: 3rd Year Individual Computational Fluid Dynamics Project
+Description: Numerical Investigation of High-Reynolds Number Turbulent Flow over a NACA 0012 Foil using the k-ω SST Model
 ---
 
-![Photo of the project](/images/warfarin-project/hero.png)
+![Photo of the project](/images/cfd-project/hero.png)
 
 ## What was the project brief?
 
-After choosing from a vast selection of project options, I settled on a brief that was to investigate model based control systems for the specific application of managing anticoagulant (warfarin) doses for patients on long-term treatment plans.
+To investigate the aerodynamic performance/behaviour of the NACA0012 foil by using industry-standard simulation software (ANSYS). Following this, to write a report with my findings and technical analysis of the results. 
 
 ## What was my approach?
 
-Working with my supervisor, we agreed that I should start by using numerical analysis to identify transfer functions which could relate the dose of warfarin that a patient took to a bleeding time test (using INR). Then, I could create several different controllers and implement the transfer functions as plant models in the simulation, and compare their behaviour/performance for this application.
+I began by following the project brief to run my simulations in ANSYS. This was my first time using this software suite, and as a result was the most challenging component of the project. I invested a lot of my time early on learning the basics and understanding how to successfully run simulations and export my results.
 
-In addition to these technical tasks, I also worked on a literature review as part of my research, and also made use of several project management tools to help me schedule my work over the roughly 6 months I had to complete my final report. 
+Once I had run my simulations, I exported the results to MATLAB for data analysis. I read online that this could be completed within the ANSYS suite, but I had previous experience with MATLAB and felt that I would be able to better investigate and explain my results.
+
+With my results and findings assembled - I wrote my final report. This drew from all aspects of my project: methods used, initial conditions, raw data and findings, technical analysis of the results, conclusions and a review of the project.
 
 ## Outcomes - How successful was the project?
 
-I was pleased that my project allowed me to explore different types of control systems (PID, PIP) and make compelling comparisons between their behaviour and performance for warfarin dose management. However, the approach I used initially to identify the transfer functions did not yield many results. Perhaps a future project could use a larger dataset, or different numerical techniques. 
+I felt that this project was highly successful. I received a first (77%) on this piece of work and I was extremely happy to get interesting results that I could talk about in my report. In particular, I found that the model specified in the project brief (k-ω SST) was not well-suited for identifying the stall behaviour that would be expected at angle of attack > 16deg. I felt that this represented a limitation of the model based on prior research, and thus highlighted my thoughts in the report. 
 
-One of the most interesting challenges I faced during the project was the need to discretise my controller's response to the error, as a patient can only be prescribed warfarin in discrete units (25mg, 10mg etc..). This caused my controller to exhibit an unwanted behaviour known as "limit cycle oscillations". This could only be corrected by adding a dead zone to introduce a fuzzy element to the reference value rather than making it an exact target as is typical in control engineering. 
-
+In retrospect, I could have spent more time on the analysis side of my project if I'd spent less time on my simulations. Being new to ANSYS, it took me a long time to get my simulations up and running. In the future, I'd be able to do this much more quickly due to the experience gained. 
 
 ## Learning Opportunities
 
-This project is by far the most challenging and involved academic task that I have ever taken on, and I was extremely pleased that I had interesting findings to discuss in both my report and viva presentation. 
+This project pushed me to learn new software and to develop existing skills, including:
+- ANSYS for computational fluid dynamics
+- MATLAB for data analysis
+- Scientific report writing
 
-I gained experience in:
-- Project management techniques (Gantt Charts, Risk Assessments, Supervisor Meetings ...)
-- Numerical analysis in MATLAB on a provided dataset, skills that I've managed to further develop with other personal projects.
-- Simulation using SIMULINK and Python. Implementing and testing control systems. 
-
-## Controller Output after correcting for Limit Cycle Oscillations
-![Group Photo](/images/warfarin-project/second.png)
+![Photo of the project](/images/cfd-project/second.png)
