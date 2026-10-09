@@ -35,5 +35,9 @@ I improved many key engineering skills during this project:
 - Programming (specifically with embedded systems/microcontrollers) and control systems
 - CAD + 3D printing
 
+## Video of our robot successfully following the black line on the ground during one of our tests
+![Video 1](/images/robot-project/demo1.mp4)
+
 ## Group Photo - After successful project practical assessment!
 ![Group Photo](/images/robot-project/group-photo.jpg)
+
