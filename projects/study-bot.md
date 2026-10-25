@@ -3,7 +3,7 @@ Title: Study/Revision Support Desk Robot, "Kit"
 Description: A small device/robot that assists with studying and focus
 ---
 
-![PCB for the current design](/images/study-bot/hero.png)
+![Small demo picture of an early Kit Prototype](/images/study-bot/demo.png)
 
 ## What was the project brief?
 
@@ -19,9 +19,11 @@ My workflow has always been to sit with a laptop and paper, and as such I envisi
 
 After several discussions with my coursemates and some research, I realised that the first step in building a device like this is to design a PCB. Over the past few years, designing and fabricating a small custom board for an embedded electronics project like this has become both cheap and accessible to a relative newcomer to hobby electronics and programming. I've based my design around an ESP32 Devkit v1 microcontroller from ELEGOO. I'm also using a couple of off-the-shelf components such as a boost convertor, MPU, and clock module. The user will interact with the device using a small lower power OLED screen and several buttons. 
 
-In addition to designing this PCB, I've started to write the code and conceptualise some of the core functionality of this device. With the experience I gained working on other projects (my second year robot project, DIY drone) I was quickly able to put together some basic code. 
+In addition to designing this PCB, I've started to write the code and conceptualise some of the core functionality of this device. With the experience I gained working on other projects (my second year robot project, DIY drone) I was quickly able to put together some basic code to test the components and explore several options for how the functionality of the device could be implemented. 
 
 Once I've finished a first prototype I'm planning on getting some feedback from my coursemates on the device. I think it's important to test the effectiveness and usefulness of Kit in a studying engineering setting. 
+
+![Screenshot of some code for Kit](/images/study-bot/code-screenshot.png)
 
 ## Outcomes - How successful was the project?
 
@@ -36,3 +38,5 @@ The main learning opportunity from this project is PCB design and fabrication. A
 ## Naming the project
 
 I named the project "Kit" after *Kit Snicket*, a character from *A Series of Unfortunate Events*. Kit is present throughout the 13 book, but never has a huge part in the text, despite her huge impact on the fortunes of the Baudelaire children. I felt that my device, Kit, would be quite an unnoticed device in the day-to-day life of a student, but could be extremely helpful in supporting their story. 
+
+![PCB for the current design](/images/study-bot/hero.png)
