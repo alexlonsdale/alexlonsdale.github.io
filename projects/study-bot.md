@@ -33,6 +33,6 @@ Currently, I'm still brainstorming ideas for the project. An advantage to the ap
 
 The main learning opportunity from this project is PCB design and fabrication. As a mechanical engineering student, I did not have more than a basic understanding of how integrated/factory-fabricated electronics worked before beginning this project. It's been very rewarding to design a custom PCB for this device - this approach will allow for much greater customisation of the final structural design. 
 
-# Naming the project
+## Naming the project
 
 I named the project "Kit" after *Kit Snicket*, a character from *A Series of Unfortunate Events*. Kit is present throughout the 13 book, but never has a huge part in the text, despite her huge impact on the fortunes of the Baudelaire children. I felt that my device, Kit, would be quite an unnoticed device in the day-to-day life of a student, but could be extremely helpful in supporting their story. 
