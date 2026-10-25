@@ -74,7 +74,7 @@ a:focus-visible {
 
 /* Headshot Container & Caption */
 .headshot-container {
-  margin: 0;
+  margin: 0 2.5rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,6 +102,10 @@ a:focus-visible {
     flex-direction: column-reverse;
     align-items: flex-start;
     gap: 1.5rem;
+  }
+
+  .headshot-container {
+    margin-right: 0;
   }
 
   .headshot {
