@@ -3,8 +3,6 @@ Title: Study/Revision Support Desk Robot, "Kit"
 Description: A small device/robot that assists with studying and focus
 ---
 
-![Small demo picture of an early Kit Prototype](/images/study-bot/demo.png)
-
 ## What was the project brief?
 
 *A small device/robot that assists with studying and focus - called "Kit"!*
