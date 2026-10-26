@@ -35,11 +35,7 @@ I improved many key engineering skills during this project:
 - Programming (specifically with embedded systems/microcontrollers) and control systems
 - CAD + 3D printing
 
-## Video of our robot successfully following the black line on the ground during one of our tests
-<video width="640" height="360" controls>
-  <source src="/images/robot-project/demo1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
 
 ## Group Photo - After successful project practical assessment!
 ![Group Photo](/images/robot-project/group-photo.jpg)
