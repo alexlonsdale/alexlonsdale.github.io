@@ -1,5 +1,5 @@
 ---
-Title: Study/Revision Support Desk Robot, "Kit"
+Title: Study and Revision Support Desk Robot, "Kit"
 Description: A small device/robot that assists with studying and focus
 ---
 
