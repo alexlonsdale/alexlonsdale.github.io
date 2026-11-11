@@ -23,6 +23,12 @@ Once I've finished a first prototype I'm planning on getting some feedback from 
 
 ![Screenshot of some code for Kit](/images/study-bot/code-screenshot.png)
 
+## PCB Design & Assembly
+
+I used EasyEDA to produce the circuit diagram and PCB files for this project. The main two advantages of this approach are that:
+- EasyEDA has community-submitted components in their library, meaning that I was able to find all of the parts I needed while using the software.
+- It's very easy to order with JLPCB from the software!
+
 ## Outcomes - How successful was the project?
 
 This project is a work-in-progress, and I'm still very much at the beginning of the work. I'm pleased with the early milestones that I've reached so far, and excited to learn more as the project goes on.
@@ -35,6 +41,6 @@ The main learning opportunity from this project is PCB design and fabrication. A
 
 ## Naming the project
 
-I named the project "Kit" after *Kit Snicket*, a character from *A Series of Unfortunate Events*. Kit is present throughout the 13 book, but never has a huge part in the text, despite her huge impact on the fortunes of the Baudelaire children. I felt that my device, Kit, would be quite an unnoticed device in the day-to-day life of a student, but could be extremely helpful in supporting their story. 
+I named the project "Kit" after *Kit Snicket*, a character from *A Series of Unfortunate Events*. Kit is present throughout the 13th book, but never has a huge part in the text, despite her huge impact on the fortunes of the Baudelaire children. I felt that my device, Kit, would be quite an unnoticed device in the day-to-day life of a student, but could be extremely helpful in supporting their story. 
 
 ![PCB for the current design](/images/study-bot/hero.png)
